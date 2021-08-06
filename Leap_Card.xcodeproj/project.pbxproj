@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21B30C626B823BC006E3F46 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B30C526B823BC006E3F46 /* ModelData.swift */; };
+		D21B30C926B8247D006E3F46 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B30C826B8247D006E3F46 /* FAQ.swift */; };
+		D21B30CB26B82573006E3F46 /* FAQrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B30CA26B82573006E3F46 /* FAQrows.swift */; };
+		D231AA2C26B8687400830325 /* DetailFAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA2B26B8687400830325 /* DetailFAQ.swift */; };
+		D231AA2E26B86D3100830325 /* FAQ.json in Resources */ = {isa = PBXBuildFile; fileRef = D231AA2D26B86D3100830325 /* FAQ.json */; };
+		D231AA3026B876B900830325 /* FAQview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA2F26B876B900830325 /* FAQview.swift */; };
+		D231AA3226B899DA00830325 /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA3126B899DA00830325 /* VersionInfo.swift */; };
+		D231AA3426B89B3D00830325 /* Version_Info in Resources */ = {isa = PBXBuildFile; fileRef = D231AA3326B89B3D00830325 /* Version_Info */; };
+		D231AA3626BB3B2200830325 /* Leap_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA3526BB3B2200830325 /* Leap_Class.swift */; };
+		D280211826A8964800CEDDA3 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280211726A8964800CEDDA3 /* AddButtonView.swift */; };
+		D280211C26AA2D5200CEDDA3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280211B26AA2D5200CEDDA3 /* SwiftUIView.swift */; };
+		D2CBBEF026A0A1510052C476 /* Leap_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBEEF26A0A1510052C476 /* Leap_CardApp.swift */; };
+		D2CBBEF226A0A1510052C476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBEF126A0A1510052C476 /* ContentView.swift */; };
+		D2CBBEF426A0A1510052C476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CBBEF326A0A1510052C476 /* Assets.xcassets */; };
+		D2CBBEF726A0A1510052C476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */; };
+		D2CBBF0226A0A1520052C476 /* Leap_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBF0126A0A1520052C476 /* Leap_CardTests.swift */; };
+		D2CBBF0D26A0A1520052C476 /* Leap_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBF0C26A0A1520052C476 /* Leap_CardUITests.swift */; };
+		D2E2F3FB26AB75BA0031B13B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */; };
+		D2E2F3FF26AED6040031B13B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2F3FE26AED6040031B13B /* MenuView.swift */; };
+		D2E2F40126AF30BD0031B13B /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2F40026AF30BD0031B13B /* About.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CBBEFE26A0A1520052C476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CBBEE426A0A1510052C476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CBBEEB26A0A1510052C476;
+			remoteInfo = Leap_Card;
+		};
+		D2CBBF0926A0A1520052C476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CBBEE426A0A1510052C476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CBBEEB26A0A1510052C476;
+			remoteInfo = Leap_Card;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21B30C526B823BC006E3F46 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D21B30C826B8247D006E3F46 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		D21B30CA26B82573006E3F46 /* FAQrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQrows.swift; sourceTree = "<group>"; };
+		D231AA2B26B8687400830325 /* DetailFAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFAQ.swift; sourceTree = "<group>"; };
+		D231AA2D26B86D3100830325 /* FAQ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FAQ.json; sourceTree = "<group>"; };
+		D231AA2F26B876B900830325 /* FAQview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQview.swift; sourceTree = "<group>"; };
+		D231AA3126B899DA00830325 /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
+		D231AA3326B89B3D00830325 /* Version_Info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Version_Info; sourceTree = "<group>"; };
+		D231AA3526BB3B2200830325 /* Leap_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_Class.swift; sourceTree = "<group>"; };
+		D280211726A8964800CEDDA3 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		D280211B26AA2D5200CEDDA3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D2CBBEEC26A0A1510052C476 /* Leap_Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leap_Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CBBEEF26A0A1510052C476 /* Leap_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardApp.swift; sourceTree = "<group>"; };
+		D2CBBEF126A0A1510052C476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2CBBEF326A0A1510052C476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2CBBEF826A0A1510052C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CBBEFD26A0A1520052C476 /* Leap_CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leap_CardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CBBF0126A0A1520052C476 /* Leap_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardTests.swift; sourceTree = "<group>"; };
+		D2CBBF0326A0A1520052C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CBBF0826A0A1520052C476 /* Leap_CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leap_CardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CBBF0C26A0A1520052C476 /* Leap_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardUITests.swift; sourceTree = "<group>"; };
+		D2CBBF0E26A0A1520052C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D2E2F3FE26AED6040031B13B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D2E2F40026AF30BD0031B13B /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CBBEE926A0A1510052C476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBEFA26A0A1520052C476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBF0526A0A1520052C476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21B30C726B823C4006E3F46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBBEEF26A0A1510052C476 /* Leap_CardApp.swift */,
+				D21B30C526B823BC006E3F46 /* ModelData.swift */,
+				D21B30C826B8247D006E3F46 /* FAQ.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D21B30CE26B82867006E3F46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D231AA3326B89B3D00830325 /* Version_Info */,
+				D231AA2D26B86D3100830325 /* FAQ.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2CBBEE326A0A1510052C476 = {
+			isa = PBXGroup;
+			children = (
+				D2CBBEEE26A0A1510052C476 /* Leap_Card */,
+				D2CBBF0026A0A1520052C476 /* Leap_CardTests */,
+				D2CBBF0B26A0A1520052C476 /* Leap_CardUITests */,
+				D2CBBEED26A0A1510052C476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CBBEED26A0A1510052C476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBBEEC26A0A1510052C476 /* Leap_Card.app */,
+				D2CBBEFD26A0A1520052C476 /* Leap_CardTests.xctest */,
+				D2CBBF0826A0A1520052C476 /* Leap_CardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CBBEEE26A0A1510052C476 /* Leap_Card */ = {
+			isa = PBXGroup;
+			children = (
+				D21B30C726B823C4006E3F46 /* Model */,
+				D2E2F3FC26AED5C30031B13B /* Helpers */,
+				D2E2F3FD26AED5D50031B13B /* Views */,
+				D2CBBEF326A0A1510052C476 /* Assets.xcassets */,
+				D21B30CE26B82867006E3F46 /* Resources */,
+				D2CBBEF826A0A1510052C476 /* Info.plist */,
+				D2CBBEF526A0A1510052C476 /* Preview Content */,
+				D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */,
+			);
+			path = Leap_Card;
+			sourceTree = "<group>";
+		};
+		D2CBBEF526A0A1510052C476 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2CBBF0026A0A1520052C476 /* Leap_CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBBF0126A0A1520052C476 /* Leap_CardTests.swift */,
+				D2CBBF0326A0A1520052C476 /* Info.plist */,
+			);
+			path = Leap_CardTests;
+			sourceTree = "<group>";
+		};
+		D2CBBF0B26A0A1520052C476 /* Leap_CardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBBF0C26A0A1520052C476 /* Leap_CardUITests.swift */,
+				D2CBBF0E26A0A1520052C476 /* Info.plist */,
+				D280211B26AA2D5200CEDDA3 /* SwiftUIView.swift */,
+			);
+			path = Leap_CardUITests;
+			sourceTree = "<group>";
+		};
+		D2E2F3FC26AED5C30031B13B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D280211726A8964800CEDDA3 /* AddButtonView.swift */,
+				D21B30CA26B82573006E3F46 /* FAQrows.swift */,
+				D231AA3526BB3B2200830325 /* Leap_Class.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D2E2F3FD26AED5D50031B13B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2E2F40026AF30BD0031B13B /* About.swift */,
+				D2E2F3FE26AED6040031B13B /* MenuView.swift */,
+				D2CBBEF126A0A1510052C476 /* ContentView.swift */,
+				D231AA2B26B8687400830325 /* DetailFAQ.swift */,
+				D231AA2F26B876B900830325 /* FAQview.swift */,
+				D231AA3126B899DA00830325 /* VersionInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CBBEEB26A0A1510052C476 /* Leap_Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CBBF1126A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_Card" */;
+			buildPhases = (
+				D2CBBEE826A0A1510052C476 /* Sources */,
+				D2CBBEE926A0A1510052C476 /* Frameworks */,
+				D2CBBEEA26A0A1510052C476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leap_Card;
+			productName = Leap_Card;
+			productReference = D2CBBEEC26A0A1510052C476 /* Leap_Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CBBEFC26A0A1520052C476 /* Leap_CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CBBF1426A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_CardTests" */;
+			buildPhases = (
+				D2CBBEF926A0A1520052C476 /* Sources */,
+				D2CBBEFA26A0A1520052C476 /* Frameworks */,
+				D2CBBEFB26A0A1520052C476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CBBEFF26A0A1520052C476 /* PBXTargetDependency */,
+			);
+			name = Leap_CardTests;
+			productName = Leap_CardTests;
+			productReference = D2CBBEFD26A0A1520052C476 /* Leap_CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2CBBF0726A0A1520052C476 /* Leap_CardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CBBF1726A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_CardUITests" */;
+			buildPhases = (
+				D2CBBF0426A0A1520052C476 /* Sources */,
+				D2CBBF0526A0A1520052C476 /* Frameworks */,
+				D2CBBF0626A0A1520052C476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CBBF0A26A0A1520052C476 /* PBXTargetDependency */,
+			);
+			name = Leap_CardUITests;
+			productName = Leap_CardUITests;
+			productReference = D2CBBF0826A0A1520052C476 /* Leap_CardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CBBEE426A0A1510052C476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D2CBBEEB26A0A1510052C476 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D2CBBEFC26A0A1520052C476 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D2CBBEEB26A0A1510052C476;
+					};
+					D2CBBF0726A0A1520052C476 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D2CBBEEB26A0A1510052C476;
+					};
+				};
+			};
+			buildConfigurationList = D2CBBEE726A0A1510052C476 /* Build configuration list for PBXProject "Leap_Card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CBBEE326A0A1510052C476;
+			productRefGroup = D2CBBEED26A0A1510052C476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CBBEEB26A0A1510052C476 /* Leap_Card */,
+				D2CBBEFC26A0A1520052C476 /* Leap_CardTests */,
+				D2CBBF0726A0A1520052C476 /* Leap_CardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CBBEEA26A0A1510052C476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D231AA2E26B86D3100830325 /* FAQ.json in Resources */,
+				D2CBBEF726A0A1510052C476 /* Preview Assets.xcassets in Resources */,
+				D231AA3426B89B3D00830325 /* Version_Info in Resources */,
+				D2CBBEF426A0A1510052C476 /* Assets.xcassets in Resources */,
+				D2E2F3FB26AB75BA0031B13B /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBEFB26A0A1520052C476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBF0626A0A1520052C476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CBBEE826A0A1510052C476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CBBEF226A0A1510052C476 /* ContentView.swift in Sources */,
+				D2E2F40126AF30BD0031B13B /* About.swift in Sources */,
+				D231AA3226B899DA00830325 /* VersionInfo.swift in Sources */,
+				D231AA3026B876B900830325 /* FAQview.swift in Sources */,
+				D2CBBEF026A0A1510052C476 /* Leap_CardApp.swift in Sources */,
+				D231AA2C26B8687400830325 /* DetailFAQ.swift in Sources */,
+				D21B30CB26B82573006E3F46 /* FAQrows.swift in Sources */,
+				D231AA3626BB3B2200830325 /* Leap_Class.swift in Sources */,
+				D280211826A8964800CEDDA3 /* AddButtonView.swift in Sources */,
+				D21B30C926B8247D006E3F46 /* FAQ.swift in Sources */,
+				D2E2F3FF26AED6040031B13B /* MenuView.swift in Sources */,
+				D21B30C626B823BC006E3F46 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBEF926A0A1520052C476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CBBF0226A0A1520052C476 /* Leap_CardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CBBF0426A0A1520052C476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D280211C26AA2D5200CEDDA3 /* SwiftUIView.swift in Sources */,
+				D2CBBF0D26A0A1520052C476 /* Leap_CardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CBBEFF26A0A1520052C476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CBBEEB26A0A1510052C476 /* Leap_Card */;
+			targetProxy = D2CBBEFE26A0A1520052C476 /* PBXContainerItemProxy */;
+		};
+		D2CBBF0A26A0A1520052C476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CBBEEB26A0A1510052C476 /* Leap_Card */;
+			targetProxy = D2CBBF0926A0A1520052C476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2CBBF0F26A0A1520052C476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2CBBF1026A0A1520052C476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CBBF1226A0A1520052C476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Leap_Card/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SHW5K5XNK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Leap_Card/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2CBBF1326A0A1520052C476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Leap_Card/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SHW5K5XNK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Leap_Card/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2CBBF1526A0A1520052C476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leap_CardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap_Card.app/Leap_Card";
+			};
+			name = Debug;
+		};
+		D2CBBF1626A0A1520052C476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leap_CardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-CardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap_Card.app/Leap_Card";
+			};
+			name = Release;
+		};
+		D2CBBF1826A0A1520052C476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leap_CardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leap_Card;
+			};
+			name = Debug;
+		};
+		D2CBBF1926A0A1520052C476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Leap_CardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-CardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leap_Card;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CBBEE726A0A1510052C476 /* Build configuration list for PBXProject "Leap_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CBBF0F26A0A1520052C476 /* Debug */,
+				D2CBBF1026A0A1520052C476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CBBF1126A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CBBF1226A0A1520052C476 /* Debug */,
+				D2CBBF1326A0A1520052C476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CBBF1426A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CBBF1526A0A1520052C476 /* Debug */,
+				D2CBBF1626A0A1520052C476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CBBF1726A0A1520052C476 /* Build configuration list for PBXNativeTarget "Leap_CardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CBBF1826A0A1520052C476 /* Debug */,
+				D2CBBF1926A0A1520052C476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CBBEE426A0A1510052C476 /* Project object */;
+}
