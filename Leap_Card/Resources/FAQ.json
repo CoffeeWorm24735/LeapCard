@@ -1,0 +1,48 @@
+[
+{
+    "Question": "What can I use it on",
+    "Answer": "As the app just makes a copy of your card. The tap on machines can not tell the difference between the real card and your phone thanks to this you can use it on all services that accept LeapCards E.g Luas, Dart, Dublin Bus,Bus Eireann",
+        "id": 1001
+},
+{
+    "Question": "Can I add more than 1 card",
+    "Answer": "Not yet that will hopefully come in the next update",
+    "id": 1002
+
+},
+{
+    "Question": "How do I use Apple Wallet",
+    "Answer": "If you are using anything below an x you can open your phone and unlock it before tapping the home button twice.On iPhone X and above you can click the on-off button twice For more help use this link",
+    "id": 1003
+
+},
+{
+    "Question": "is this legal",
+    "Answer": "IDK",
+    "id": 1004
+
+
+
+},
+{
+    "Question": "What do I do if something doest work",
+    "Answer": "Please try to see if it happes multiple time is so please follow these steps,      If you are part of the beta shake your phone and and a screen will come up and try the write at least something in the box it helps.If you are not in the beta you can talk to me directly and tell me or email me at charlie78brady@icloud.com",
+    "id": 1005
+
+},
+
+{
+    "Question": "Can I see my balance",
+    "Answer": "The leap card Balance and top up system is not available to the public so I can not access that data but I am working on a hack to try and access it and you will then see a button on the home page of the app that will allow you to top up and see yoyur balnce in the mean timw you can use the LeapCard top up app by TFI wich is aviable on the appstore for free ",
+    "id": 1006
+
+},
+
+{
+    "Question": "Can I send My link to my friend",
+    "Answer": "NO Plesse don’t I need to finish the app first then it will be public on the App Store for free for everyone to use but for now you are part of a selected group testing it before everyone else",
+    "id": 1007
+
+}
+
+]
