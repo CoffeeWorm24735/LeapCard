@@ -24,7 +24,7 @@ struct FAQview: View {
             .navigationTitle("FAQ")
         }
             // Set frame so it will fit in area beside the sidemenu
-        .frame(width: boarder.w - 75, height: boarder.h - 40, alignment: .center)
+        .frame(width: boarder.w - 75, alignment: .center)
     }
 }
 

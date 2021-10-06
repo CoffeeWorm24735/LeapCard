@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DetailFAQ: View {
    
-    // Imoort json data and set custom device boundries
+    // Import json data and set custom device boundries
     var json: Questions
     var boarder = bounds()
 

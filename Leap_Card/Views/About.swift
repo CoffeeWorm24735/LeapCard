@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct About: View {
+    var boarder = bounds()
     var body: some View {
         // Set boudries for each divice
-        let h: CGFloat = UIScreen.main.bounds.height
-        let w: CGFloat = UIScreen.main.bounds.width
+        
         ZStack{
             // Set gray background
             LinearGradient(gradient: Gradient(colors: [Color("NavStart"), Color("NavEnd")]), startPoint: .top, endPoint: .bottom)
@@ -33,7 +33,7 @@ struct About: View {
                     .offset(x: -10)
             
         }   // Set frame so it will fit in the area beside the sidemenu
-            .frame(width: w - 75, height: h, alignment: .center)
+            .frame(width: boarder.w - 75, alignment: .center)
         }
 }
 

@@ -14,17 +14,24 @@
 		D231AA2E26B86D3100830325 /* FAQ.json in Resources */ = {isa = PBXBuildFile; fileRef = D231AA2D26B86D3100830325 /* FAQ.json */; };
 		D231AA3026B876B900830325 /* FAQview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA2F26B876B900830325 /* FAQview.swift */; };
 		D231AA3226B899DA00830325 /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA3126B899DA00830325 /* VersionInfo.swift */; };
-		D231AA3426B89B3D00830325 /* Version_Info in Resources */ = {isa = PBXBuildFile; fileRef = D231AA3326B89B3D00830325 /* Version_Info */; };
 		D231AA3626BB3B2200830325 /* Leap_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231AA3526BB3B2200830325 /* Leap_Class.swift */; };
+		D2396C6E26CC7DA5008E1E98 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2396C6D26CC7DA5008E1E98 /* Storyboard.storyboard */; };
+		D23DBD2426EAB29A007DD10A /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23DBD2326EAB29A007DD10A /* PassKit.framework */; };
+		D245FE0A26C87C33005A1409 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245FE0926C87C33005A1409 /* Share.swift */; };
 		D280211826A8964800CEDDA3 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280211726A8964800CEDDA3 /* AddButtonView.swift */; };
 		D280211C26AA2D5200CEDDA3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280211B26AA2D5200CEDDA3 /* SwiftUIView.swift */; };
+		D29A91A926E95C1500A3B169 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A91A426E95C1500A3B169 /* icon@2x.png */; };
+		D29A91AA26E95C1500A3B169 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A91A526E95C1500A3B169 /* icon.png */; };
+		D29A91AB26E95C1500A3B169 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A91A626E95C1500A3B169 /* logo.png */; };
+		D29A91AC26E95C1500A3B169 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = D29A91A726E95C1500A3B169 /* pass.json */; };
+		D29A91AD26E95C1500A3B169 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A91A826E95C1500A3B169 /* logo@2x.png */; };
+		D29A91AF26E9621F00A3B169 /* AddWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A91AE26E9621F00A3B169 /* AddWallet.swift */; };
+		D2CAD3BC26D46F4900F9E2ED /* NfcActionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CAD3BB26D46F4900F9E2ED /* NfcActionGroup.swift */; };
 		D2CBBEF026A0A1510052C476 /* Leap_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBEEF26A0A1510052C476 /* Leap_CardApp.swift */; };
 		D2CBBEF226A0A1510052C476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBEF126A0A1510052C476 /* ContentView.swift */; };
 		D2CBBEF426A0A1510052C476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CBBEF326A0A1510052C476 /* Assets.xcassets */; };
-		D2CBBEF726A0A1510052C476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */; };
 		D2CBBF0226A0A1520052C476 /* Leap_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBF0126A0A1520052C476 /* Leap_CardTests.swift */; };
 		D2CBBF0D26A0A1520052C476 /* Leap_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBBF0C26A0A1520052C476 /* Leap_CardUITests.swift */; };
-		D2E2F3FB26AB75BA0031B13B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */; };
 		D2E2F3FF26AED6040031B13B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2F3FE26AED6040031B13B /* MenuView.swift */; };
 		D2E2F40126AF30BD0031B13B /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2F40026AF30BD0031B13B /* About.swift */; };
 /* End PBXBuildFile section */
@@ -54,15 +61,24 @@
 		D231AA2D26B86D3100830325 /* FAQ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FAQ.json; sourceTree = "<group>"; };
 		D231AA2F26B876B900830325 /* FAQview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQview.swift; sourceTree = "<group>"; };
 		D231AA3126B899DA00830325 /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
-		D231AA3326B89B3D00830325 /* Version_Info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Version_Info; sourceTree = "<group>"; };
 		D231AA3526BB3B2200830325 /* Leap_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_Class.swift; sourceTree = "<group>"; };
+		D2396C6D26CC7DA5008E1E98 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D23DBD2326EAB29A007DD10A /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		D245FE0926C87C33005A1409 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		D280211726A8964800CEDDA3 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 		D280211B26AA2D5200CEDDA3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D29A91A426E95C1500A3B169 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D29A91A526E95C1500A3B169 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D29A91A626E95C1500A3B169 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D29A91A726E95C1500A3B169 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		D29A91A826E95C1500A3B169 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		D29A91AE26E9621F00A3B169 /* AddWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWallet.swift; sourceTree = "<group>"; };
+		D2CAD3BA26D4226B00F9E2ED /* Leap_Card.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Leap_Card.entitlements; sourceTree = "<group>"; };
+		D2CAD3BB26D46F4900F9E2ED /* NfcActionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcActionGroup.swift; sourceTree = "<group>"; };
 		D2CBBEEC26A0A1510052C476 /* Leap_Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leap_Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CBBEEF26A0A1510052C476 /* Leap_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardApp.swift; sourceTree = "<group>"; };
 		D2CBBEF126A0A1510052C476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2CBBEF326A0A1510052C476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2CBBEF826A0A1510052C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2CBBEFD26A0A1520052C476 /* Leap_CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leap_CardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CBBF0126A0A1520052C476 /* Leap_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardTests.swift; sourceTree = "<group>"; };
@@ -70,7 +86,6 @@
 		D2CBBF0826A0A1520052C476 /* Leap_CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leap_CardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CBBF0C26A0A1520052C476 /* Leap_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_CardUITests.swift; sourceTree = "<group>"; };
 		D2CBBF0E26A0A1520052C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		D2E2F3FE26AED6040031B13B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D2E2F40026AF30BD0031B13B /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23DBD2426EAB29A007DD10A /* PassKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,10 +129,39 @@
 		D21B30CE26B82867006E3F46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D231AA3326B89B3D00830325 /* Version_Info */,
+				D23ADCF026E55C2900AC1964 /* Card.pass */,
+				D2CAD3BA26D4226B00F9E2ED /* Leap_Card.entitlements */,
 				D231AA2D26B86D3100830325 /* FAQ.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2396C6C26CC7D85008E1E98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2396C6D26CC7DA5008E1E98 /* Storyboard.storyboard */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D23ADCF026E55C2900AC1964 /* Card.pass */ = {
+			isa = PBXGroup;
+			children = (
+				D29A91A526E95C1500A3B169 /* icon.png */,
+				D29A91A426E95C1500A3B169 /* icon@2x.png */,
+				D29A91A626E95C1500A3B169 /* logo.png */,
+				D29A91A826E95C1500A3B169 /* logo@2x.png */,
+				D29A91A726E95C1500A3B169 /* pass.json */,
+			);
+			path = Card.pass;
+			sourceTree = "<group>";
+		};
+		D23DBD2226EAB29A007DD10A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23DBD2326EAB29A007DD10A /* PassKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D2CBBEE326A0A1510052C476 = {
@@ -126,6 +171,7 @@
 				D2CBBF0026A0A1520052C476 /* Leap_CardTests */,
 				D2CBBF0B26A0A1520052C476 /* Leap_CardUITests */,
 				D2CBBEED26A0A1510052C476 /* Products */,
+				D23DBD2226EAB29A007DD10A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,18 +194,9 @@
 				D2CBBEF326A0A1510052C476 /* Assets.xcassets */,
 				D21B30CE26B82867006E3F46 /* Resources */,
 				D2CBBEF826A0A1510052C476 /* Info.plist */,
-				D2CBBEF526A0A1510052C476 /* Preview Content */,
-				D2E2F3FA26AB75BA0031B13B /* Storyboard.storyboard */,
+				D2396C6C26CC7D85008E1E98 /* Preview Content */,
 			);
 			path = Leap_Card;
-			sourceTree = "<group>";
-		};
-		D2CBBEF526A0A1510052C476 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2CBBEF626A0A1510052C476 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D2CBBF0026A0A1520052C476 /* Leap_CardTests */ = {
@@ -187,6 +224,8 @@
 				D280211726A8964800CEDDA3 /* AddButtonView.swift */,
 				D21B30CA26B82573006E3F46 /* FAQrows.swift */,
 				D231AA3526BB3B2200830325 /* Leap_Class.swift */,
+				D245FE0926C87C33005A1409 /* Share.swift */,
+				D2CAD3BB26D46F4900F9E2ED /* NfcActionGroup.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -200,6 +239,7 @@
 				D231AA2B26B8687400830325 /* DetailFAQ.swift */,
 				D231AA2F26B876B900830325 /* FAQview.swift */,
 				D231AA3126B899DA00830325 /* VersionInfo.swift */,
+				D29A91AE26E9621F00A3B169 /* AddWallet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,10 +348,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D231AA2E26B86D3100830325 /* FAQ.json in Resources */,
-				D2CBBEF726A0A1510052C476 /* Preview Assets.xcassets in Resources */,
-				D231AA3426B89B3D00830325 /* Version_Info in Resources */,
+				D29A91AD26E95C1500A3B169 /* logo@2x.png in Resources */,
+				D29A91AA26E95C1500A3B169 /* icon.png in Resources */,
+				D29A91AC26E95C1500A3B169 /* pass.json in Resources */,
+				D29A91AB26E95C1500A3B169 /* logo.png in Resources */,
+				D29A91A926E95C1500A3B169 /* icon@2x.png in Resources */,
+				D2396C6E26CC7DA5008E1E98 /* Storyboard.storyboard in Resources */,
 				D2CBBEF426A0A1510052C476 /* Assets.xcassets in Resources */,
-				D2E2F3FB26AB75BA0031B13B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +388,9 @@
 				D21B30CB26B82573006E3F46 /* FAQrows.swift in Sources */,
 				D231AA3626BB3B2200830325 /* Leap_Class.swift in Sources */,
 				D280211826A8964800CEDDA3 /* AddButtonView.swift in Sources */,
+				D2CAD3BC26D46F4900F9E2ED /* NfcActionGroup.swift in Sources */,
+				D245FE0A26C87C33005A1409 /* Share.swift in Sources */,
+				D29A91AF26E9621F00A3B169 /* AddWallet.swift in Sources */,
 				D21B30C926B8247D006E3F46 /* FAQ.swift in Sources */,
 				D2E2F3FF26AED6040031B13B /* MenuView.swift in Sources */,
 				D21B30C626B823BC006E3F46 /* ModelData.swift in Sources */,
@@ -435,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -490,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -505,9 +551,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leap_Card/Resources/Leap_Card.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Leap_Card/Preview Content\"";
-				DEVELOPMENT_TEAM = 2SHW5K5XNK;
+				DEVELOPMENT_TEAM = 9A78263J3H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Leap_Card/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -515,11 +563,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-Card";
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Card.LeapCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -528,9 +576,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leap_Card/Resources/Leap_Card.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Leap_Card/Preview Content\"";
-				DEVELOPMENT_TEAM = 2SHW5K5XNK;
+				DEVELOPMENT_TEAM = 9A78263J3H;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Leap_Card/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -538,11 +588,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "Leap.Leap-Card";
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Card.LeapCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

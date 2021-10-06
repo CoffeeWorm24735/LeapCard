@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct AddButtonView: View {
-   var body: some View {
+     
+    var body: some View {
         // Create the button
         Button(action:{
-            
+            NfcActionGroup().scanCard()
         } ){
-            Text("Edit Cards")
+            Text("Add Card")
                 .font(.title2)
                 .fontWeight(.bold)
+                .foregroundColor(Color.black)
                 
         }
        // Set the styling to the ButtStyle struct
@@ -35,15 +37,8 @@ struct ButtStyle: ButtonStyle {
             // Button styling
             .frame(minWidth: 0, maxWidth: boarder.w)
             .padding()
-            .foregroundColor(.black)
-            .shadow(radius:  16)
-            .background(Color("AddButtonColour"))
-            .cornerRadius(50)
-            .overlay(
-                        RoundedRectangle(cornerRadius: 70)
-                            .stroke(Color.black,
-                                    lineWidth: 3))
-            
+            .background(Color("AddButtonColour").opacity(0.5))
+            .clipShape(Capsule())            
             .scaleEffect(configuration.isPressed ? 0.93:
                             0.98)
             .hoverEffect(.automatic)

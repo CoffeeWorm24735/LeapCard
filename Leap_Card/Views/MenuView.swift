@@ -9,30 +9,44 @@ import SwiftUI
 import UIKit
 
 
+// Create a class that holds the value of the menuOpen
+class Open: ObservableObject{
+    @Published var menuOpen = false
+}
+
+
+
 // Craete list fior objects in the sode munu bar
 struct MenuView: View{
-    let otherViewController: ContentView = ContentView()
-
     
-    
+    // State variuables that update the menu options
     @State var Menuopen: Bool = false
     @State var FAQ: Bool = false
     @State var Version: Bool = false
+    @State var shareOpen: Bool = false
+    
     // Min boudaries setting
     var boarder = bounds()
-    
-    // Set background colour fill
+ 
+   
+    // Initaiate the background that helps it reac all corners
     init(){
-           UITableView.appearance().backgroundColor = .clear
+        UITableView.appearance().backgroundColor = .clear
        }
     var body: some View {
-       
+      
         // Create the list of options
+        
         List{
+            Spacer()
+                .frame(height: 50)
+                .listRowBackground(Color("SideViewColour"))
             Button {
                 self.Menuopen = false 
                 self.FAQ.toggle()
                 self.Version = false
+                self.shareOpen = false
+            
             } label: {
                 Text("FAQ")
                     .foregroundColor(Color.black)
@@ -45,6 +59,8 @@ struct MenuView: View{
                 self.Version.toggle()
                 self.FAQ = false
                 self.Menuopen = false
+                self.shareOpen = false
+
                
             })
             {
@@ -60,6 +76,8 @@ struct MenuView: View{
                 self.Menuopen.toggle()
                 self.FAQ = false
                 self.Version = false
+                self.shareOpen = false
+
                
 
             })
@@ -72,33 +90,26 @@ struct MenuView: View{
             .listRowBackground(Color("SideViewColour"))
             .ignoresSafeArea()
             
-            // Exit Button
-            Button(action: {
-                self.Menuopen = false
-                self.FAQ = false
-                self.Version = false
-                otherViewController.close()
-            }){
-                
-            }
-            // Exit button styling
-            .frame(width: boarder.w, height: boarder.h - 170, alignment: .center)
-            .background(Color("SideViewColour"))
-            .ignoresSafeArea()
-            .offset(x: -20, y: -10)
 
+        
+            
         }
+        // Set background colour fill
         .background(Color("SideViewColour"))
         .ignoresSafeArea()
-        
-        // Open the About page when Menuopen is == trie
-        if Menuopen == true {
+       
+    
+      
+        // Open the About page when Menuopen is == true
+        Spacer()
+            if Menuopen == true {
         
                 
              About()
                 .background(Color.white)
                 .ignoresSafeArea()
-                  .offset(x: 80)
+                .offset(x: -10)
+                 
                    
                     
                    
@@ -108,23 +119,27 @@ struct MenuView: View{
 
         if FAQ {
             FAQview()
-                .offset(x: 80)
+            .offset(x: -10)
         }
     
         if Version{
             VersionInfo()
-                .offset(x: 80)
+            .offset(x: -10)
         }
-    
+        
+        
     
     }
+    
+    
     
 
 
     
 struct SideMenu: View {
-    let width: CGFloat 
-    let isOpen: Bool
+    let width: CGFloat;
+    let isOpen: Bool;
+    
     //let menuClose: () -> Void
     
     var body: some View{
@@ -136,6 +151,7 @@ struct SideMenu: View {
             .opacity(self.isOpen ? 1.0 : 0.0)
             .animation(Animation.easeIn.delay(0.25))
             
+            
         }
         HStack {
             MenuView()
@@ -144,6 +160,7 @@ struct SideMenu: View {
                 .animation(.default)
                 //.background(Color.green)
             Spacer()
+                
         }
      
     }
