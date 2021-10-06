@@ -1,0 +1,10 @@
+LEAP CARD 
+
+This is an app that I am devolping on the side for the TFI LeapCard transportation ticketing system.
+In its final version it will be able to add a users LeapCard to the Apple Wallet
+Cureently the app is in beta in TestFlight with only the reader enabled but no output given to the user 
+I am currently appling for the Apple NFC certificate which will allow me to completely emulate the LeapCard and its behavours 
+I hope to have the app ready for full Public release sometime in November 
+
+
+Charlie, Brady 
